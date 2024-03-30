@@ -1,1 +1,3 @@
-background: linear-gradient(90deg, #D16BA5 0%, #C777B9 12%, #BA83CA 22.5%, #AA8FD8 31.5%, #9A9AE1 43.5%, #8AA7EC 54%, #79B3F4 61.5%, #69BFF8 71%, #52CFFE 79%, #41DFFF 88%, #46EEFA 93.5%, #5FFBF1 100%);
+.selector {
+    background: linear-gradient(90deg, #D16BA5 0%, #C777B9 12%, #BA83CA 22.5%, #AA8FD8 31.5%, #9A9AE1 43.5%, #8AA7EC 54%, #79B3F4 61.5%, #69BFF8 71%, #52CFFE 79%, #41DFFF 88%, #46EEFA 93.5%, #5FFBF1 100%);
+}
