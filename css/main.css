@@ -54,3 +54,11 @@ body {
     font-weight: 700;
     line-height: normal;
 }
+
+.todo-table small {
+    font-family: normal;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
