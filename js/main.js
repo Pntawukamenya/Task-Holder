@@ -32,8 +32,7 @@ function addTodoItem(Title){
                         <td><input type="checkbox" name="" id=""></td>
                         <td>${title}</td>
                         <td>Pending</td>
-                    </tr>';
+                    </tr>`;
 
     htmlBody.innerHTML += htmlContent;
-
-}
+};
