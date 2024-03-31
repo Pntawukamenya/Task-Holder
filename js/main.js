@@ -11,7 +11,7 @@ todoForm.addEventListener("submit", function(e){
     todoForm.todoname.value = "";
 });
 
-htmlBody.addEventListener('click', function(e){
+HtmlBody.addEventListener('click', function(e){
     if(e.target.getAttribute('type')=='checkbox'){
         let tr =e.target.parentNode.parentNode;
         if(e.target.checked){
