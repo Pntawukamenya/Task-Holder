@@ -5,4 +5,48 @@
 
 body {
     background: linear-gradient(90deg, #D16BA5 0%, #C777B9 12%, #BA83CA 22.5%, #AA8FD8 31.5%, #9A9AE1 43.5%, #8AA7EC 54%, #79B3F4 61.5%, #69BFF8 71%, #52CFFE 79%, #41DFFF 88%, #46EEFA 93.5%, #5FFBF1 100%);
+    height: 70vh;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-form,.todo-table {
+    background: rgba(255, 253, 253, 0.50);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    width: 50vw;
+}
+
+.todo-form input {
+    font-size: 28px;
+    line-height: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.todo-form button {
+    font-size: 28px;
+    line-height: 30px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #686565;
+    color: white;
+    position: absolute;
+    right: 1em;
+    margin-top: 7px
+}
+
+/* Table */
+.todo-table {
+    margin-top: 2em;
+}
+
+.todo-table h1 {
+    
 }
