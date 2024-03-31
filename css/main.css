@@ -121,6 +121,7 @@ border-radius: 10px;
 .todo-table tbody tr:last-child td:last-child {
     border-radius: 0px 0px 10px 0px;
 }
+
 .todo-table tbody tr.complete {
     background-color: #BA83CA;
     text-decoration: line-through;
