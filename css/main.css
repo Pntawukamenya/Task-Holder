@@ -122,5 +122,6 @@ border-radius: 10px;
     border-radius: 0px 0px 10px 0px;
 }
 .todo-table tbody tr.complete {
-    background-color: #3058ae;
+    background-color: #BA83CA;
+    text-decoration: line-through;
 }
