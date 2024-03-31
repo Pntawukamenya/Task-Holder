@@ -109,3 +109,15 @@ border-radius: 10px;
     text-align: center;
     padding: 5px;
 }
+
+.todo-table tbody tr:nth-child(even) {
+    background: #FBF9F8;
+}
+
+.todo-table tbody tr:last-child td:first-child {
+    border-radius: 0px 0px 0px 10px;
+}
+
+.todo-table tbody tr:last-child td:last-child {
+    border-radius: 0px 0px 10px 0px;
+}
