@@ -73,5 +73,37 @@ border-radius: 10px;
 .todo-table thead tr {
     background: #BA83CA;
     color: white;
-    
+    font-family: normal;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal
+    height: 50px;
+}
+
+.todo-table thead tr th:first-child {
+    border-radius: 10px 0px 0px 0px;
+}
+
+.todo-table thead tr th:last-child {
+    border-radius: 0px 10px 0px 0px;
+}
+
+.todo-table tbody tr {
+    background: #EFEBEA;
+    color: black;
+    font-family: normal;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal
+    height: 50px;
+}
+
+.todo-table thead tr th:first-child {
+    border-radius: 10px 0px 0px 0px;
+}
+
+.todo-table thead tr th:last-child {
+    border-radius: 0px 10px 0px 0px;
 }
