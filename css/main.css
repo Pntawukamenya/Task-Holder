@@ -27,6 +27,7 @@ body {
     border: none;
     border-radius: 10px;
     width: 100%;
+    outline: none;
 }
 
 .todo-form button {
