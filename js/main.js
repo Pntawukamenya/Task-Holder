@@ -13,10 +13,11 @@ todoForm.addEventListener('submit', function(e){
 
 htmlBody.addEventListener('click', function(e){
     if(e.target.getAttribute('type')=='checkbox'){
+        let tr = e.target.parentNode.parentNode;
         if(e.target.checked){
-
+         tr.classlist.add('complete');
         }else{
-
+            tr.classlist.remove('complete');
         }
     }   
 });
