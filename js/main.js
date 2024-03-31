@@ -1,4 +1,5 @@
 let todoForm = document.querySelector(".todo-form form");
+let htmlBody = document.querySelector(".todo-table table tbody");
 
 todoForm.addEventListener('submit', function(e){
     e.preventDefault();
@@ -10,6 +11,17 @@ todoForm.addEventListener('submit', function(e){
     todoForm.todoname.value = '';
 });
 
+htmlBody.addEventListener('click', function(e){
+    if(e.target.getAttribute('type')=='checkbox'){
+        if(e.target.checked){
+
+        }else{
+
+        }
+    }   
+});
+
+
 
 
 function addTodoItem(title){
@@ -18,7 +30,6 @@ function addTodoItem(title){
                            <td>Pack toiletry bag</td>
                            <td>Pending</td>
                         </tr>
-    let htmlBody = document.querySelector(".todo-table table tbody");
-
+                        
     htmlBody.innerHTML += htmlContent;
 }
