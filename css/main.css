@@ -48,5 +48,9 @@ body {
 }
 
 .todo-table h1 {
-    
+    font-family: normal;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
