@@ -1,7 +1,7 @@
 {
   "name": "task-manager",
   "version": "1.0.0",
-  "description": "An app to list an manag tasks",
+  "description": "An app to list and manage tasks",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
