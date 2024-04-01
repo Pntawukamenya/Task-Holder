@@ -1,129 +1,105 @@
-* {
-    margin: 0px;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times new roman',sans-serif;
     box-sizing: border-box;
 }
 
-body {
-    background: linear-gradient(90deg, #D16BA5 0%, #C777B9 12%, #BA83CA 22.5%, #AA8FD8 31.5%, #9A9AE1 43.5%, #8AA7EC 54%, #79B3F4 61.5%, #69BFF8 71%, #52CFFE 79%, #41DFFF 88%, #46EEFA 93.5%, #5FFBF1 100%);
-    height: 70vh;   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.todo-form,.todo-table {
-    background: rgba(255, 253, 253, 0.50);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-    position: relative;
-    width: 50vw;
-}
-
-.todo-form input {
-    font-size: 28px;
-    line-height: 20px;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
+.container{
     width: 100%;
-    outline: none;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #D16BA5 0%, #C777B9 12%, #BA83CA 22.5%, #AA8FD8 31.5%, #9A9AE1 43.5%, #8AA7EC 54%, #79B3F4 61.5%, #69BFF8 71%, #52CFFE 79%, #41DFFF 88%, #46EEFA 93.5%, #5FFBF1 100%);
+    padding: 10px;
 }
 
-.todo-form button {
-    font-size: 28px;
-    line-height: 30px;
-    padding: 5px 20px;
-    border: none;
+.todo-app{
+    width: 100%;
+    max-width: 100vh;
+    background: #ffffff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px ;
     border-radius: 10px;
-    background: #686565;
-    color: white;
+    opacity: 0.85;
+}
+
+.todo-app h2{
+    color:#9149bd ;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f0edf0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 8px 25px;
+    background: #2a2929;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 30px;
+
+}
+
+ul li{
+    list-style: checkbox;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: text;
+    cursor: pointer;
+    position: relative;
+
+}
+
+ul li::before{
+    content: '';
     position: absolute;
-    right: 1em;
-    margin-top: 7px
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
 }
 
-/* Table */
-.todo-table {
-    margin-top: 2em;
-}
-
-.todo-table h1 {
-    font-family: normal;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.todo-table small {
-    font-family: normal;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 350;
-    line-height: normal;
-}
-
-.todo-table table {
-border-spacing: 0px;
-margin-top: 1em;
-width: 100%;
-border-radius: 10px;
-}
-
-.todo-table thead tr {
-    background: #BA83CA;
-    color: white;
-    font-family: normal;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal
-    height: 50px;
-}
-
-.todo-table thead tr th:first-child {
-    border-radius: 10px 0px 0px 0px;
-}
-
-.todo-table thead tr th:last-child {
-    border-radius: 0px 10px 0px 0px;
-}
-
-.todo-table tbody tr {
-    background: #EFEBEA;
-    color: black;
-    font-family: normal;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 10px;
-    height: 50px;
-}
-
-.todo-table tbody tr td:first-child {
-    text-align: center;
-    padding: 5px;
-}
-
-.todo-table tbody tr td:last-child {
-    text-align: center;
-    padding: 5px;
-}
-
-.todo-table tbody tr:nth-child(even) {
-    background: #FBF9F8;
-}
-
-.todo-table tbody tr:last-child td:first-child {
-    border-radius: 0px 0px 0px 10px;
-}
-
-.todo-table tbody tr:last-child td:last-child {
-    border-radius: 0px 0px 10px 0px;
-}
-
-.todo-table tbody tr.complete {
-    background-color: #BA83CA;
+ul li.checked{
+    color: #555;
     text-decoration: line-through;
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+ul li span:hover{
+    background: #edeef0;
 }
