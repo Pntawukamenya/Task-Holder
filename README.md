@@ -1,4 +1,4 @@
-This is a ReadMe ffile for a simple todo list webapp that I created for a class assignment.
+This is a ReadMe file for a simple todo list webapp that I created for a class assignment.
 
 Webapp link: https://pntawukamenya.github.io/
 
