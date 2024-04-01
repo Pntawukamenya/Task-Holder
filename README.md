@@ -7,9 +7,9 @@ Clone the Repository: git clone <repository_url>
 
 Navigate to the Project Directory: cd <project_directory> Install Dependencies:
 
-npm install Start the Application:
+npm install Start the Application: npm start
 
-npm start Access the Application: Open a web browser and navigate to http://localhost:8081.
+Access the Application: Open a web browser and navigate to http://localhost:8081.
 
 Building the Docker Image and Running a Container Build the Docker Image:
 
